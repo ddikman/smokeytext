@@ -5,5 +5,5 @@ This library requires lettering.js and jQuery and uses the animation libraries t
 ## Usage
 Quite simply really:
 
-''' javascript
+``` javascript
 $('textspan').smoke({duration: 5});
