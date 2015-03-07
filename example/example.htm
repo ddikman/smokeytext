@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+
+		<title>SmokeyText.js example</title>
+
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/letteringjs/jquery.lettering.js"></script>
+		<script src="../bower_components/randomColor/randomColor.js"></script>
+		<script src="../smokeytext.js"></script>
+
+		<style type="text/css">
+
+			.container {
+				position: absolute;
+				top: 200px;
+				width: 400px;
+				left: 50%;
+				margin-left: -200px;
+			}
+
+			#text {
+				font-size: 40pt;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+				$('#text').smoke({duration: 2000});
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+			<span id="text">This text will smoke</span>
+		</div>
+
+	</body>
+
+</html>

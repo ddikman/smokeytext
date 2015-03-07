@@ -1,0 +1,23 @@
+{
+  "name": "SmokeyText",
+  "main": "SmokeyText.js",
+  "version": "0.0.1",
+  "authors": [
+    "David Dikman <ddikman@gmail.com>"
+  ],
+  "description": "Small jQuery extension to animate text going up in smoke",
+  "keywords": [
+    "jQyery",
+    "typography",
+    "lettering"
+  ],
+  "license": "MIT",
+  "homepage": "http://greycastle.se/smokeytext",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
